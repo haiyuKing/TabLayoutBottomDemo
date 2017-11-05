@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.why.project.tablayoutbottomdemo.MainActivity">
+
+    <!-- viewpager区域 -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_tab"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dp"
+        android:layout_weight="1"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cfcfcf">
+    </View>
+
+    <!-- 选项卡区域 -->
+    <!--设置TabLayout的模式 app:tabMode 默认是fixed：固定的，标签很多时候会被挤压，不能滑动。-->
+    <!--设置整个TabLayout的颜色 app:tabBackground-->
+    <!--设置选中字体的颜色 app:tabSelectedTextColor-->
+    <!--设置未选中字体的颜色 app:tabTextColor-->
+    <!--设置指示器下标的颜色 app:tabIndicatorColor-->
+    <!--设置指示器下标的高度 app:tabIndicatorHeight，如果设置的是0.0dp，则代表没有下划线-->
+    <!--设置内容的显示模式 app:tabGravity，center : 居中，如果是fill，则是充满-->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tl_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_bottom_background_height"
+        app:tabBackground="@android:color/transparent"
+        app:tabMode="fixed"
+        app:tabIndicatorHeight="0dp"
+        app:tabGravity="fill"
+        />
+</LinearLayout>

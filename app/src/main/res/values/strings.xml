@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TabLayoutBottomDemo</string>
+
+    <!-- *********************************底部选项卡区域********************************* -->
+    <string name="home_function_home">首页</string>
+    <string name="home_function_message">消息</string>
+    <string name="home_function_contact">我的</string>
+
+</resources>

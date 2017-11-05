@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- *********************************底部选项卡区域********************************* -->
+    <!-- 底部选项卡底部背景色 -->
+    <color name="tab_bg_normal">#00000000</color>
+    <color name="tab_bg_selected">#00000000</color>
+    <!-- 底部选项卡文本颜色 -->
+    <color name="tab_text_normal">#8a8a8a</color>
+    <color name="tab_text_selected">#38ADFF</color>
+</resources>

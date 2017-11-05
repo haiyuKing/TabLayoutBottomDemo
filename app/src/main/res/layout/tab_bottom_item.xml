@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 底部选项卡区域的子选项卡布局文件 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tab_bg_normal"
+    android:gravity="center" >
+    
+    <!-- android:checkMark="?android:attr/listChoiceIndicatorMultiple"代表多选
+    	 android:checkMark="?android:attr/listChoiceIndicatorSingle" 代表单选 
+    	 该属性不添加的话，不会显示方框或者圆点
+   	-->
+   	
+   	<!-- android:drawableTop的属性值使用drawable目录下的selector选择器 -->
+   	<!-- android:tag="tag1"用于checkedTextview的索引 -->
+   	
+   	<!-- 选项卡的内容（图片+文字）类似RadioButton -->
+	<!--android:textAlignment="center" 文本居中-->
+	<CheckedTextView
+		android:id="@+id/bottomtab_checkedTextView"
+		android:tag="tag1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text=""
+		android:textSize="@dimen/tab_text_size"
+		android:textColor="@color/tab_text_normal"
+		android:textAlignment="center"
+		/>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 首页界面的底部选项卡（我的）选择器 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/home_bottom_tab_icon_contact_highlight" android:state_selected="true" />
+    <item android:drawable="@drawable/home_bottom_tab_icon_contact_highlight" android:state_pressed="true" />
+    <item android:drawable="@drawable/home_bottom_tab_icon_contact_highlight" android:state_checked="true" />
+    <item android:drawable="@drawable/home_bottom_tab_icon_contact_normal" />
+</selector>
